@@ -10,6 +10,8 @@ Kaggle-Cassava-Leaf-Disease-Classification
 
 - Cassava Green Mite (CGM)
 
+-------
+
 ## Cassava Disease Classification:
 https://www.kaggle.com/c/cassava-disease/overview
 
@@ -28,3 +30,5 @@ https://www.kaggle.com/c/cassava-disease/discussion/94112
 ### 3rd place solution:
 https://www.kaggle.com/c/cassava-disease/discussion/94102
 
+
+-------
