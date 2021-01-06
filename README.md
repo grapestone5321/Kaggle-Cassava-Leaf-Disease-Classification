@@ -39,3 +39,13 @@ https://www.kaggle.com/c/cassava-disease/discussion/94102
 
 
 -------
+
+## Paper
+
+
+
+
+
+--------
+
+
