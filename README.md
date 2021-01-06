@@ -42,6 +42,10 @@ https://www.kaggle.com/c/cassava-disease/discussion/94102
 
 ## Paper
 
+### Benchmark Analysis of Representative Deep Neural Network Architectures
+https://arxiv.org/pdf/1810.00736.pdf
+
+
 
 
 
