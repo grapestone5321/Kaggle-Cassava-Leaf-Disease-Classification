@@ -62,9 +62,14 @@ https://arxiv.org/pdf/1810.00736.pdf
 
 
 
-
-
-
 --------
 
+## Progress
+### Current Best LB Score: 0.898
+-------
+
+
+### Pytorch Efficientnet Baseline [Inference] TTA
+
+       'lr': 1e-3 LB 0.898 ver8
 
