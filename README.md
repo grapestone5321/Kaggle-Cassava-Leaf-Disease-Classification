@@ -4,6 +4,14 @@ Kaggle-Cassava-Leaf-Disease-Classification
 ## End Date (Final Submission Deadline): 
 ### February 18, 2021 11:59 PM UTC
 
+
+-------
+
+## Task
+Your task is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. 
+ 
+With your help, farmers may be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
+
 -------
 
 ## Evaluation
@@ -19,6 +27,7 @@ The submission format for the competition is a csv file with the following forma
      1000840542.jpg,4
      etc.
 
+-------
 
 ## Four of the most common cassava diseases 
 - Cassava Brown Streak Disease (CBSD) 
