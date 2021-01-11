@@ -82,6 +82,10 @@ https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
 https://arxiv.org/pdf/1810.00736.pdf
 
 
+### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
+https://arxiv.org/pdf/1704.04861.pdf
+
+
 
 --------
 
