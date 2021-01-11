@@ -6,6 +6,18 @@ Kaggle-Cassava-Leaf-Disease-Classification
 
 -------
 
+## Evaluation
+### Submissions will be evaluated based on their categorization accuracy.
+
+categorization accuracy: https://developers.google.com/machine-learning/crash-course/classification/accuracy
+
+### Submission Format
+The submission format for the competition is a csv file with the following format:
+
+     image_id,label
+     1000471002.jpg,4
+     1000840542.jpg,4
+     etc.
 
 
 ## Four of the most common cassava diseases 
