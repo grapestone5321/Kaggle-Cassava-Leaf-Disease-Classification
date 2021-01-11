@@ -85,6 +85,63 @@ https://arxiv.org/pdf/1810.00736.pdf
 
 --------
 
+## Things may help public lb score: Discussion
+https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
+
+- Image Size
+
+      Larger image size helps public lb score. 384 x 384 ~ 512 x 512 are enough.
+
+- Augmentation
+
+      Augmentation with flips and rotations are good for starter. Things like cutmix helps with CV score, but there is no significant change in public lb for me.
+
+- Normalization
+
+      Using mean, std for this competition helps a little boost in CV and public lb, instead of mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225] for ImageNet. 
+      But the mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225] is enough for public lb scores.
+
+- Model size
+
+      A small model like resnext50 or efficientnet-b3 is doable for medals. However, keep the possibilities open for larger models.
+
+- Cross-Validation Strategy
+
+      The CV strategy is important. 
+      5 folds is enough. 10 folds had an advantage in cv, but had no significant impact in public lb. 
+      For each specific fold, the difference in scores for both cv and lb is very large. 
+      Because of this, changing the seed may can help. Not using all folds helps public lb.
+      (CV and public lb seem to be related to some extent.)
+
+- Optimizer
+      Adam is a good starting point. 
+      RAdam+Lookahead is also good. Other than that, testing was required, but there was no significant change in public lb score.
+
+- Relabeling and Finetuning
+
+      CV improved a lot, but public lb did not change much.
+      (The CV was very bad when only training the dataset that my model thought was noise.)
+
+- Criterion (loss function)
+
+      Label smoothing is good in public lb. Bi-Tempered Logistic Loss and Focal Cosine Loss can be a good alternative.
+
+- TTA
+
+      Choosing commonly used TTA, public lb score may get worse. 
+      This is heavily influenced by the CV Strategy. 
+      A little rotation or simple augmentation can help. 
+      However, it is sensitive to the number of TTAs.
+      (In fact, you can reach the current gold medal area with no TTA.)
+
+- Ensemble
+
+      It helps with public lb. 
+      However, single model can get public lb score for current gold medal area.
+
+
+-------
+
 ## Progress
 ### Current Best LB Score: 0.898
 -------
