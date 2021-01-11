@@ -119,7 +119,8 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 - Optimizer
       Adam is a good starting point. 
-      RAdam+Lookahead is also good. Other than that, testing was required, but there was no significant change in public lb score.
+      RAdam+Lookahead is also good. Other than that, testing was required, 
+      but there was no significant change in public lb score.
 
 - Relabeling and Finetuning
 
@@ -128,7 +129,8 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 - Criterion (loss function)
 
-      Label smoothing is good in public lb. Bi-Tempered Logistic Loss and Focal Cosine Loss can be a good alternative.
+      Label smoothing is good in public lb. 
+      Bi-Tempered Logistic Loss and Focal Cosine Loss can be a good alternative.
 
 - TTA
 
