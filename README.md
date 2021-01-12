@@ -8,9 +8,20 @@ Kaggle-Cassava-Leaf-Disease-Classification
 -------
 
 ## Task
-Your task is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. 
+### Your task is to classify each cassava image into four disease categories or a fifth category indicating a healthy leaf. 
  
 With your help, farmers may be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
+
+-------
+
+## Four of the most common cassava diseases 
+- Cassava Brown Streak Disease (CBSD) 
+
+- Cassava Mosaic Disease (CMD) 
+
+- Cassava Bacterial Blight (CBB) 
+
+- Cassava Green Mite (CGM)
 
 -------
 
@@ -27,16 +38,7 @@ The submission format for the competition is a csv file with the following forma
      1000840542.jpg,4
      etc.
 
--------
 
-## Four of the most common cassava diseases 
-- Cassava Brown Streak Disease (CBSD) 
-
-- Cassava Mosaic Disease (CMD) 
-
-- Cassava Bacterial Blight (CBB) 
-
-- Cassava Green Mite (CGM)
 
 -------
 
@@ -155,5 +157,17 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 ### Pytorch Efficientnet Baseline [Inference] TTA
 
-       'lr': 1e-3 LB 0.898 ver8
+### CFG = {
+
+### lr: default= 1e-4
+
+       'lr': 1e-3   LB 0.898 ver8       
+       'lr': 1e-4   LB 0.898 ver6     
+       'lr': 1e-5   LB 0.898 ver7     
+
+### epochs: default= 32
+
+    'epochs': 16     LB 0.898 ver9     
+    'epochs': 32     LB 0.898 ver6      
+
 
