@@ -111,6 +111,13 @@ https://arxiv.org/pdf/1704.04861.pdf
 -------
 
 ## Paper-3: Augmentation, Test-time augmentation (or TTA)
+
+
+### Albumentations: fast and flexible image augmentations
+https://arxiv.org/pdf/1809.06839.pdf
+
+
+
 ### The Effectiveness of Data Augmentation in Image Classification using Deep Learning
 https://arxiv.org/pdf/1712.04621.pdf
 
