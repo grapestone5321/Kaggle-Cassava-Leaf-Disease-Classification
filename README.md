@@ -119,6 +119,8 @@ https://openreview.net/pdf?id=Byxv9aioz
 
 --------
 
+## blogs
+
 ## Test-time augmentation, or TTA for short
 
 ### Test-Time Augmentation For Tabular Data With Scikit-Learn
