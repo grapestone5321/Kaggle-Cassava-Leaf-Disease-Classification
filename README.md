@@ -93,6 +93,16 @@ https://arxiv.org/pdf/1704.04861.pdf
 https://arxiv.org/pdf/1712.04621.pdf
 
 
+### When and Why Test-Time Augmentation Works
+https://dmshanmugam.github.io/pdfs/tta_2020.pdf
+
+### When and Why Test-Time Augmentation Works
+https://arxiv.org/pdf/2011.11156.pdf
+
+
+### Test-time augmentation with uncertainty estimation for deep learning-based medical image segmentation
+https://openreview.net/pdf?id=Byxv9aioz
+
 --------
 
 ## Things may help public lb score: Discussion
@@ -166,13 +176,20 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 ### lr: default= 1e-4
 
-       'lr': 1e-3   LB 0.898 ver8       
-       'lr': 1e-4   LB 0.898 ver6     
-       'lr': 1e-5   LB 0.898 ver7     
+       'lr': 1e-3   LB 0.898    ver8       
+       'lr': 1e-4   LB 0.898    ver6     
+       'lr': 1e-5   LB 0.898    ver7     
 
 ### epochs: default= 32
 
-    'epochs': 16     LB 0.898 ver9     
-    'epochs': 32     LB 0.898 ver6      
+    'epochs': 16     LB 0.898    ver9     
+    'epochs': 32     LB 0.898    ver6      
 
+### img_size: default= 512
+
+    'epochs': 16     LB 0.898    ver9     
+    'epochs': 32     LB 0.898    ver6 
+    
+    'img_size': 128    LB          ver10        
+    'img_size': 512    LB 0.898    ver6 
 
