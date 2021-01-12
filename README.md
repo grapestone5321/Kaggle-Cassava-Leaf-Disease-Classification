@@ -105,6 +105,12 @@ https://openreview.net/pdf?id=Byxv9aioz
 
 --------
 
+## Test-time augmentation, or TTA for short
+
+### Test-Time Augmentation For Tabular Data With Scikit-Learn
+https://machinelearningmastery.com/test-time-augmentation-with-scikit-learn/
+
+
 ## Things may help public lb score: Discussion
 https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
