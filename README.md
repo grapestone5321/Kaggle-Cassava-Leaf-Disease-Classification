@@ -76,9 +76,19 @@ https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
 
 
+
+
+
 -------
 
-## Paper
+## Paper: Cassava Disease
+### Managing cassava virus diseases in Africa
+http://www.fao.org/fileadmin/user_upload/emergencies/docs/RCI%20Cassava%20brochure_ENG_FINAL.pdf
+
+
+-------
+
+## Paper-2
 
 ### Benchmark Analysis of Representative Deep Neural Network Architectures
 https://arxiv.org/pdf/1810.00736.pdf
@@ -90,7 +100,7 @@ https://arxiv.org/pdf/1704.04861.pdf
 
 -------
 
-## Paper-2
+## Paper-3: Augmentation, Test-time augmentation (or TTA)
 ### The Effectiveness of Data Augmentation in Image Classification using Deep Learning
 https://arxiv.org/pdf/1712.04621.pdf
 
@@ -105,12 +115,6 @@ https://arxiv.org/pdf/2011.11156.pdf
 ### Test-time augmentation with uncertainty estimation for deep learning-based medical image segmentation
 https://openreview.net/pdf?id=Byxv9aioz
 
-
--------
-
-## Paper-3: Cassava Disease
-### Managing cassava virus diseases in Africa
-http://www.fao.org/fileadmin/user_upload/emergencies/docs/RCI%20Cassava%20brochure_ENG_FINAL.pdf
 
 
 --------
