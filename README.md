@@ -244,9 +244,9 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
     'tta': 1   LB 0.896    ver14  
     'tta': 2   LB 0.902    ver13  --- Best
     'tta': 3   LB 0.898    ver6 
+    'tta': 4   LB 0.898    ver15  
     
-    
-    
+   
   -------  
     
 
