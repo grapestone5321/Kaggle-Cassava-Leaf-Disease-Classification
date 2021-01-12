@@ -133,6 +133,9 @@ https://arxiv.org/pdf/2011.11156.pdf
 https://openreview.net/pdf?id=Byxv9aioz
 
 
+### Learning Loss for Test-Time Augmentation
+https://arxiv.org/pdf/2010.11422.pdf
+
 
 --------
 
