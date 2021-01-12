@@ -195,13 +195,15 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
 
       Therefore, I trained a light aug version model today, and it boosts my LB to the 1st.
 
-      Never been such a high rank before. Although the CV score indicates that it is likely to be overfitting on public LB. 
+      Never been such a high rank before. 
+      Although the CV score indicates that it is likely to be overfitting on public LB. 
       I think it still worth sharing for those who wanna climb a higher place.
 
 -------
 
 ## Progress
 ### Current Best LB Score: 0.902
+
 -------
 
 
