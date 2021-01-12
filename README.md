@@ -119,11 +119,15 @@ https://openreview.net/pdf?id=Byxv9aioz
 
 --------
 
-## blogs
+## Blogs
 
 ## Test-time augmentation, or TTA for short
 
-### Test-Time Augmentation For Tabular Data With Scikit-Learn
+### How to Use Test-Time Augmentation to Make Better Predictions:
+https://machinelearningmastery.com/how-to-use-test-time-augmentation-to-improve-model-performance-for-image-classification/
+
+
+### Test-Time Augmentation For Tabular Data With Scikit-Learn:
 https://machinelearningmastery.com/test-time-augmentation-with-scikit-learn/
 
 
