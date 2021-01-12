@@ -123,7 +123,7 @@ https://machinelearningmastery.com/test-time-augmentation-with-scikit-learn/
 
 -------
 
-## Things may help public lb score: Discussion
+## Things may help public lb score: Discussion by Heroseo
 https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 - Image Size
