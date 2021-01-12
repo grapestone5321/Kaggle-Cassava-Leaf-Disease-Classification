@@ -60,6 +60,16 @@ https://www.kaggle.com/c/cassava-disease/discussion/94112
 ### 3rd place solution:
 https://www.kaggle.com/c/cassava-disease/discussion/94102
 
+
+
+## iCassava 2019
+https://sites.google.com/view/fgvc6/competitions/icassava-2019
+
+### github: FGVCx Cassava disease diagnosis
+https://github.com/icassava/fgvcx-icassava
+
+
+
 -------
 
 
