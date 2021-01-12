@@ -88,6 +88,10 @@ https://arxiv.org/pdf/1810.00736.pdf
 https://arxiv.org/pdf/1704.04861.pdf
 
 
+## Paper-2
+### The Effectiveness of Data Augmentation in Image Classification using Deep Learning
+https://arxiv.org/pdf/1712.04621.pdf
+
 
 --------
 
