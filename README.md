@@ -103,6 +103,14 @@ https://arxiv.org/pdf/2011.11156.pdf
 ### Test-time augmentation with uncertainty estimation for deep learning-based medical image segmentation
 https://openreview.net/pdf?id=Byxv9aioz
 
+
+
+
+## Paper-3: Cassava Disease
+### Managing cassava virus diseases in Africa
+http://www.fao.org/fileadmin/user_upload/emergencies/docs/RCI%20Cassava%20brochure_ENG_FINAL.pdf
+
+
 --------
 
 ## Test-time augmentation, or TTA for short
@@ -196,6 +204,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
     'epochs': 16     LB 0.898    ver9     
     'epochs': 32     LB 0.898    ver6 
     
-    'img_size': 128    LB          ver10        
-    'img_size': 512    LB 0.898    ver6 
+    'img_size':  128    LB 0.602    ver10        
+    'img_size':  512    LB 0.898    ver6
+    'img_size': 1024    LB          ver11
 
