@@ -40,7 +40,7 @@ The submission format for the competition is a csv file with the following forma
 
 -------
 
-## Cassava Disease Classification:
+## Cassava Disease Classification: InClass Prediction Competition
 https://www.kaggle.com/c/cassava-disease/overview
 
 Classify pictures of cassava leaves into 1 of 4 disease categories (or healthy)
