@@ -180,6 +180,23 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
       It helps with public lb. 
       However, single model can get public lb score for current gold medal area.
 
+-------
+
+## Light augs to 0.906: Discussion by zlannn
+
+https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
+
+      Yesterday, I shared the opinion here https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206489 
+      that we might need carefully select TTA augs or even augs while training.
+
+      I rarely train a model with almost no augs in CV task because regular augs always help.
+
+      However, I noticed light augs in this task leads to an obvious boost on LB (did not boost that much on CV).
+
+      Therefore, I trained a light aug version model today, and it boosts my LB to the 1st.
+
+      Never been such a high rank before. Although the CV score indicates that it is likely to be overfitting on public LB. 
+      I think it still worth sharing for those who wanna climb a higher place.
 
 -------
 
