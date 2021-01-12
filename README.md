@@ -201,10 +201,8 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
 
 ### img_size: default= 512
 
-    'epochs': 16     LB 0.898    ver9     
-    'epochs': 32     LB 0.898    ver6 
-    
-    'img_size':  128    LB 0.602    ver10        
+    'img_size':  128    LB 0.602    ver10  
+    'img_size':  256    LB          ver12 
     'img_size':  512    LB 0.898    ver6
-    'img_size': 1024    LB          ver11
+    'img_size': 1024    LB error    ver11
 
