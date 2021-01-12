@@ -120,6 +120,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/207450
       (CV and public lb seem to be related to some extent.)
 
 - Optimizer
+
       Adam is a good starting point. 
       RAdam+Lookahead is also good. Other than that, testing was required, 
       but there was no significant change in public lb score.
