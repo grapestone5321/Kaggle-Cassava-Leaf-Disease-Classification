@@ -296,7 +296,19 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
     'tta': 3   LB 0.898    ver6 
     'tta': 4   LB 0.898    ver15  
     
-   
+### fold_num: default= 10
+
+ tta = 3:
+ 
+    'fold_num':  5      LB 0.898    ver18
+    'fold_num': 10      LB 0.898    ver6
+
+tta = 2:
+
+    'fold_num':  5      LB          ver
+    'fold_num': 10      LB 0.902    ver13  --- Best
+    'fold_num': 15      LB          ver19
+    
   -------  
     
 
