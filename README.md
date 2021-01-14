@@ -266,6 +266,46 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
 
 
 ### Pytorch Efficientnet Baseline [Inference] TTA
+https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inference-tta
+
+
+-------
+
+## Process
+
+      package_path = '../input/pytorch-image-models/pytorch-image-models-master' 
+             
+      train = pd.read_csv('../input/cassava-leaf-disease-classification/train.csv')
+      
+      submission = pd.read_csv('../input/cassava-leaf-disease-classification/sample_submission.csv')
+
+
+### Helper Functions
+
+      img = get_img('../input/cassava-leaf-disease-classification/train_images/1000015157.jpg')
+
+### Dataset
+
+### Define Train\Validation Image Augmentations
+
+### Model
+
+### Main Loop
+
+        valid_ = train.loc[val_idx,:].reset_index(drop=True)
+        valid_ds = CassavaDataset(valid_, '../input/cassava-leaf-disease-classification/train_images/', transforms=get_inference_transforms(), output_label=False)
+        
+        test = pd.DataFrame()
+        test['image_id'] = list(os.listdir('../input/cassava-leaf-disease-classification/test_images/'))
+        test_ds = CassavaDataset(test, '../input/cassava-leaf-disease-classification/test_images/', transforms=get_inference_transforms(), output_label=False)
+
+
+
+        for i, epoch in enumerate(CFG['used_epochs']):    
+            model.load_state_dict(torch.load('../input/fork-pytorch-efficientnet-baseline-train-amp-a/{}_fold_{}_{}'.format(CFG['model_arch'], fold, epoch)))
+            
+            
+-------
 
 ### CFG = {
 
