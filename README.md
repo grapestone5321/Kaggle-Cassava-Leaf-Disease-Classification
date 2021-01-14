@@ -15,13 +15,26 @@ With your help, farmers may be able to quickly identify diseased plants, potenti
 -------
 
 ## Four of the most common cassava diseases 
+
 - Cassava Brown Streak Disease (CBSD) 
+
+### Cassava brown streak disease: a threat to food security in Africa
+http://biblio1.iita.org/bitstream/handle/20.500.12478/1151/U15ArtPatilCassavaInthomDev.pdf?sequence=1&isAllowed=y
 
 - Cassava Mosaic Disease (CMD) 
 
+### Resistance to cassava mosaic disease in transgenic cassava expressing antisense RNAs targeting virus replication genes
+https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-7652.2005.00132.x
+
 - Cassava Bacterial Blight (CBB) 
 
+### Genetic mapping of resistance to bacterial blight disease in cassava (Manríhof esculenfa Crantz)
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.2396&rep=rep1&type=pdf
+
 - Cassava Green Mite (CGM)
+
+### Genome-Wide Association Study of Resistance to Cassava Green Mite Pest and Related Traits in Cassava
+https://acsess.onlinelibrary.wiley.com/doi/pdf/10.2135/cropsci2018.01.0024
 
 
 
