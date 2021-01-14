@@ -26,6 +26,8 @@ With your help, farmers may be able to quickly identify diseased plants, potenti
       }
 
 
+## Papers:
+
 ## Cassava Brown Streak Disease (CBSD): 
 
 ### Cassava brown streak disease: a threat to food security in Africa
