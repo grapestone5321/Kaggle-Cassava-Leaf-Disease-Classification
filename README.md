@@ -28,6 +28,11 @@ With your help, farmers may be able to quickly identify diseased plants, potenti
 
 ## Papers:
 
+## Cassava Disease
+### Managing cassava virus diseases in Africa
+http://www.fao.org/fileadmin/user_upload/emergencies/docs/RCI%20Cassava%20brochure_ENG_FINAL.pdf
+
+
 ## Cassava Brown Streak Disease (CBSD): 
 
 ### Cassava brown streak disease: a threat to food security in Africa
@@ -118,14 +123,7 @@ https://ai.googleblog.com/2019/05/efficientnet-improving-accuracy-and.html
 
 -------
 
-## Paper: Cassava Disease
-### Managing cassava virus diseases in Africa
-http://www.fao.org/fileadmin/user_upload/emergencies/docs/RCI%20Cassava%20brochure_ENG_FINAL.pdf
-
-
--------
-
-## Paper-2
+## Paper-1
 
 ### Benchmark Analysis of Representative Deep Neural Network Architectures
 https://arxiv.org/pdf/1810.00736.pdf
@@ -137,7 +135,7 @@ https://arxiv.org/pdf/1704.04861.pdf
 
 -------
 
-## Paper-3: Augmentation, Test-time augmentation (or TTA)
+## Paper-2: Augmentation, Test-time augmentation (or TTA)
 
 
 ### Albumentations: fast and flexible image augmentations
