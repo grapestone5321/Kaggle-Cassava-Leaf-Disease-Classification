@@ -137,6 +137,9 @@ https://openreview.net/pdf?id=Byxv9aioz
 https://arxiv.org/pdf/2010.11422.pdf
 
 
+### Greedy Policy Search: A Simple Baseline for Learnable Test-Time Augmentation
+https://arxiv.org/pdf/2002.09103.pdf
+
 --------
 
 ## Blogs
