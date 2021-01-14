@@ -343,10 +343,12 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 tta = 2:
 
-    'fold_num':  5      LB          ver
+    'fold_num':  2      LB 0.902    ver20
     'fold_num': 10      LB 0.902    ver13  --- Best
-    'fold_num': 15      LB          ver19
-    
+    'fold_num': 15      LB 0.902    ver19
+ 
+ 
+ 
   -------  
     
 
