@@ -23,6 +23,16 @@ With your help, farmers may be able to quickly identify diseased plants, potenti
 
 - Cassava Green Mite (CGM)
 
+
+
+     "root":{5 items
+     "0":string"Cassava Bacterial Blight (CBB)"
+     "1":string"Cassava Brown Streak Disease (CBSD)"
+     "2":string"Cassava Green Mottle (CGM)"
+     "3":string"Cassava Mosaic Disease (CMD)"
+     "4":string"Healthy"
+     }
+
 -------
 
 ## Evaluation
@@ -37,7 +47,6 @@ The submission format for the competition is a csv file with the following forma
      1000471002.jpg,4
      1000840542.jpg,4
      etc.
-
 
 
 -------
