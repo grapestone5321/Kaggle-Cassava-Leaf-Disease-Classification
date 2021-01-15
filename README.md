@@ -286,6 +286,41 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 ### Dataset
 
+      class CassavaDataset(Dataset):
+          def __init__(
+              self, df, data_root, transforms=None, output_label=True
+          ):
+        
+              super().__init__()
+              self.df = df.reset_index(drop=True).copy()
+              self.transforms = transforms
+              self.data_root = data_root
+              self.output_label = output_label
+    
+          def __len__(self):
+              return self.df.shape[0]
+    
+          def __getitem__(self, index: int):
+        
+              # get labels
+              if self.output_label:
+                  target = self.df.iloc[index]['label']
+          
+              path = "{}/{}".format(self.data_root, self.df.iloc[index]['image_id'])
+        
+              img  = get_img(path)
+        
+              if self.transforms:
+                  img = self.transforms(image=img)['image']
+            
+              # do label smoothing
+              if self.output_label == True:
+                  return img, target
+              else:
+                  return img
+
+
+
 ### Define Train\Validation Image Augmentations
 
       def get_inference_transforms():
