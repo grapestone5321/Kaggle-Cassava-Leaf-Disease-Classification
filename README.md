@@ -105,7 +105,7 @@ https://github.com/icassava/fgvcx-icassava
 -------
 
 
-## pytorch
+## Pytorch
 https://pytorch.org/
 
 ### SAVING AND LOADING MODELS
