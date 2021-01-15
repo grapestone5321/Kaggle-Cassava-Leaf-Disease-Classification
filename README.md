@@ -330,24 +330,6 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 ### CFG = {
 
-### lr: default= 1e-4
-
-       'lr': 1e-3   LB 0.898    ver8       
-       'lr': 1e-4   LB 0.898    ver6     
-       'lr': 1e-5   LB 0.898    ver7     
-
-### epochs: default= 32
-
-    'epochs': 16     LB 0.898    ver9     
-    'epochs': 32     LB 0.898    ver6      
-
-### img_size: default= 512
-
-    'img_size':  128    LB 0.602    ver10  
-    'img_size':  256    LB 0.878    ver12 
-    'img_size':  512    LB 0.898    ver6
-    'img_size': 1024    LB error    ver11
-    
 ### tta: default= 3    
     
     'tta': 1   LB 0.896    ver14  
@@ -355,6 +337,39 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
     'tta': 3   LB 0.898    ver6 
     'tta': 4   LB 0.898    ver15  
     
+### lr: default= 1e-4
+
+tta = 3:
+
+       'lr': 1e-3   LB 0.898    ver8       
+       'lr': 1e-4   LB 0.898    ver6     
+       'lr': 1e-5   LB 0.898    ver7     
+
+
+### epochs: default= 32
+
+
+tta = 3:
+
+    'epochs': 16     LB 0.898    ver9     
+    'epochs': 32     LB 0.898    ver6      
+
+### img_size: default= 512
+
+tta = 3:
+
+    'img_size':  128    LB 0.602    ver10  
+    'img_size':  256    LB 0.878    ver12 
+    'img_size':  512    LB 0.898    ver6
+    'img_size': 1024    LB error    ver11
+
+tta = 2:
+
+    'img_size': 512    LB 0.902    ver13  --- Best
+    'img_size': 576    LB 0.901    ver21
+
+
+
 ### fold_num: default= 10
 
  tta = 3:
