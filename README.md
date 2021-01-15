@@ -271,7 +271,7 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 -------
 
-## Process
+## Process: Pytorch Efficientnet Baseline [Inference] TTA
 
       package_path = '../input/pytorch-image-models/pytorch-image-models-master' 
              
