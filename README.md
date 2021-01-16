@@ -455,8 +455,8 @@ tta = 2:
 
       'valid_bs':  16     LB          ver
       'valid_bs':  32     LB 0.902    ver13,22  --- Best
-      'valid_bs':  64     LB          ver23
-      'valid_bs': 128     LB          ver     
+      'valid_bs':  64     LB 0.897    ver23
+   
       
       
   -------  
