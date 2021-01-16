@@ -449,7 +449,16 @@ tta = 2:
     'fold_num': 15      LB 0.902    ver19
  
  
- 
+### valid_bs :  default= 32
+
+tta = 2:
+
+      'valid_bs':  16     LB          ver
+      'valid_bs':  32     LB 0.902    ver13,22  --- Best
+      'valid_bs':  64     LB          ver23
+      'valid_bs': 128     LB          ver     
+      
+      
   -------  
     
 
