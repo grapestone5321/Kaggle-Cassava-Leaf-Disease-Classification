@@ -454,12 +454,12 @@ tta = 2:
 tta = 2:
 
       'valid_bs':  16     LB 0.899    ver25
-      'valid_bs':  28     LB 0.899    ver
+      'valid_bs':  28     LB 0.896    ver26
       'valid_bs':  32     LB 0.902    ver13,22  --- Best
+      'valid_bs':  36     LB 0.900    ver27
       'valid_bs':  64     LB 0.897    ver23
    
-      
-      
+    
   -------  
     
 
