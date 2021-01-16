@@ -280,11 +280,30 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
       submission = pd.read_csv('../input/cassava-leaf-disease-classification/sample_submission.csv')
 
 
-### Helper Functions
+## Helper Functions
 
       img = get_img('../input/cassava-leaf-disease-classification/train_images/1000015157.jpg')
 
-### Dataset
+### def seed_everything(seed):
+
+      def seed_everything(seed):
+          random.seed(seed)
+          os.environ['PYTHONHASHSEED'] = str(seed)
+          np.random.seed(seed)
+          torch.manual_seed(seed)
+          torch.cuda.manual_seed(seed)
+          torch.backends.cudnn.deterministic = True
+          torch.backends.cudnn.benchmark = True
+ 
+### def get_img(path):
+ 
+      def get_img(path):
+         im_bgr = cv2.imread(path)
+         im_rgb = im_bgr[:, :, ::-1]
+         return im_rgb         
+          
+    
+## Dataset
 
       class CassavaDataset(Dataset):
           def __init__(
