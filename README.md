@@ -470,7 +470,7 @@ tta = 2:
     'fold_num': 15      LB 0.902    ver19
  
  
-### valid_bs :  default= 32
+### valid_bs:  default= 32
 
 tta = 2:
 
@@ -480,7 +480,19 @@ tta = 2:
       'valid_bs':  36     LB 0.900    ver27
       'valid_bs':  64     LB 0.897    ver23
    
-    
+
+### seed': 719:  default= 719
+
+tta = 2:
+
+    'seed': 　42     LB 0.895    ver28
+    'seed':  500                 ver31    
+    'seed':　719     LB 0.902    ver13,22  --- Best
+    'seed': 1000     LB 0.897    ver30
+    'seed': 1500     LB 0.897    ver29
+
+
+
   -------  
     
 
