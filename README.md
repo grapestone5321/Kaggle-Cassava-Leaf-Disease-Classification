@@ -193,6 +193,10 @@ https://towardsdatascience.com/complete-guide-to-pythons-cross-validation-with-e
 
 https://github.com/vaasha/Machine-leaning-in-examples/blob/master/sklearn/cross-validation/Cross%20Validation.ipynb
 
+### sklearn.model_selection.train_test_split
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+
+
 ## Papers:
 
 ### Permutation Tests for Studying Classifier Performance
