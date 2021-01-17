@@ -189,7 +189,9 @@ https://machinelearningmastery.com/test-time-augmentation-with-scikit-learn/
 ### Complete guide to Python’s cross-validation with examples
 https://towardsdatascience.com/complete-guide-to-pythons-cross-validation-with-examples-a9676b5cac12
 
+- github: vaasha/Machine-leaning-in-examples
 
+https://github.com/vaasha/Machine-leaning-in-examples/blob/master/sklearn/cross-validation/Cross%20Validation.ipynb
 
 
 -------
