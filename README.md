@@ -180,6 +180,17 @@ https://machinelearningmastery.com/how-to-use-test-time-augmentation-to-improve-
 ### Test-Time Augmentation For Tabular Data With Scikit-Learn:
 https://machinelearningmastery.com/test-time-augmentation-with-scikit-learn/
 
+-------
+
+## Cross-Validation Strategy
+
+## Blogs
+
+### Complete guide to Python’s cross-validation with examples
+https://towardsdatascience.com/complete-guide-to-pythons-cross-validation-with-examples-a9676b5cac12
+
+
+
 
 -------
 
