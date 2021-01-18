@@ -508,7 +508,8 @@ tta = 2:
 tta = 2:
 
     'seed': 　42     LB 0.895    ver28
-    'seed':  500     LB 0.895    ver31    
+    'seed':  500     LB 0.895    ver31
+    'seed':  500     LB          ver33
     'seed':　719     LB 0.902    ver13,22  --- Best
     'seed':  800     LB 0.897    ver32 
     'seed': 1000     LB 0.897    ver30
