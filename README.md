@@ -481,7 +481,6 @@ tta = 2:
     'img_size': 576    LB 0.901    ver21
 
 
-
 ### fold_num: default= 10
 
  tta = 3:
