@@ -474,7 +474,9 @@ tta = 3:
 tta = 2:
 
     'img_size': 384    LB 0.896    ver36
-    'img_size': 448    LB          ver38
+    'img_size': 448    LB 0.898    ver38
+    'img_size': 480    LB          ver39
+    'img_size': 496    LB          ver40
     'img_size': 512    LB 0.902    ver13  --- Best    
     'img_size': 576    LB 0.901    ver21
 
