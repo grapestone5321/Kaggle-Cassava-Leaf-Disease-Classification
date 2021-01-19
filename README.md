@@ -473,7 +473,8 @@ tta = 3:
 
 tta = 2:
 
-    'img_size': 512    LB 0.902    ver13  --- Best
+    'img_size': 384    LB 0.896    ver36
+    'img_size': 512    LB 0.902    ver13  --- Best    
     'img_size': 576    LB 0.901    ver21
 
 
@@ -509,7 +510,8 @@ tta = 2:
 
     'seed': 　42     LB 0.895    ver28
     'seed':  500     LB 0.895    ver31
-    'seed':  500     LB          ver33
+    'seed':  600     LB 0.898    ver33
+    'seed':  700     LB 0.899    ver34    
     'seed':　719     LB 0.902    ver13,22  --- Best
     'seed':  800     LB 0.897    ver32 
     'seed': 1000     LB 0.897    ver30
