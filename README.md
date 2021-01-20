@@ -531,7 +531,17 @@ tta = 2:,
     'model_arch': 'tf_efficientnet_b4_ns'
                'img_size': 480      LB 0.895    ver40       
                'img_size': 512      LB 0.896    ver41      
-    
+ 
+### used_epochs: default= [6,7,8,9],
+
+tta = 2: 
+
+       'used_epochs': [5,6,7,8]
+       'used_epochs': [6,7,8,9]      LB 0.902    ver13,22  --- Best
+       'used_epochs': [7,8,9,10]
+       'used_epochs': [5,6,7,8]
+       
+       
   -------  
     
 
