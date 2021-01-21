@@ -541,7 +541,15 @@ tta = 2:
        'used_epochs': [7,8,9,10]       LB 0.897    ver42
        'used_epochs': [8,9,10,11]      LB 0.896    ver45
        
-       
-  -------  
+### weights:  default= [1,1,1,1]   
+
+tta = 2: 
+
+       'weights': [1,1,1,1]       LB 0.902    ver13,22,44  --- Best
+       'weights': [1,1,1,0]       LB 0.899    ver46
+       'weights': [1,1,1,2]       LB 0.900    ver47
+    
+      
+ -------  
     
 
