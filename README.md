@@ -536,10 +536,10 @@ tta = 2:,
 
 tta = 2: 
 
-       'used_epochs': [5,6,7,8]
-       'used_epochs': [6,7,8,9]      LB 0.902    ver13,22  --- Best
-       'used_epochs': [7,8,9,10]
-       'used_epochs': [5,6,7,8]
+       'used_epochs': [5,6,7,8]        LB 0.899    ver43
+       'used_epochs': [6,7,8,9]        LB 0.902    ver13,22,44  --- Best
+       'used_epochs': [7,8,9,10]       LB 0.897    ver42
+       'used_epochs': [8,9,10,11]      LB 0.896    ver45
        
        
   -------  
