@@ -549,7 +549,7 @@ tta = 2:
        'weights': [1,1,1,0.5]     LB 0.901    ver48
        'weights': [1,1,1,0.7]     LB 0.901    ver49
        'weights': [1,1,1,1]       LB 0.902    ver13,22,44  --- Best  
-       'weights': [1,1,1,1.2]     LB          ver50
+       'weights': [1,1,1,1.2]     LB 0.902    ver50
        'weights': [1,1,1,2]       LB 0.900    ver47
        
     
