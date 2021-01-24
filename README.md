@@ -553,9 +553,21 @@ tta = 2:
        'weights': [1,1,1,2]       LB 0.900    ver47
        'weights': [1,1,1,2,1]     LB 0.900    ver53
        'weights': [1,1,1.2,1]     LB 0.900    ver54
-       
+
+### fold > n:  default= n
+
+      folds = StratifiedKFold(n_splits=CFG['fold_num']).split(np.arange(train.shape[0]), train.label.values)    
+          for fold, (trn_idx, val_idx) in enumerate(folds):
+              # we'll train fold 0 first       
+              if fold > 0:
+                  break 
+              
+              if fold > 0:         LB 0.902    ver13,22,44  --- Best  
+              if fold > 1:         LB 0.896    ver56
+              if fold > 10:        LB 0.898    ver57
+              
     
-      
+     
  -------  
     
 
