@@ -581,4 +581,7 @@ https://www.kaggle.com/salmaneunus/cassava-classification-6
     'tta': 2   LB 0.900    ver2  
     'tta': 6   LB 0.901    ver1 
 
-    
+### lr: default= 1e-2
+
+    'lr': 1e-2   LB 0.901    ver1 
+    'lr': 1e-3   LB 0.901    ver4  
