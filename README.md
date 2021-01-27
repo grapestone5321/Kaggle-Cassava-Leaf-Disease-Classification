@@ -592,9 +592,11 @@ https://www.kaggle.com/salmaneunus/cassava-classification-6
         x1 = self.model1(x)
         x2 = self.model2(x)
         
-        return 0.5 * x1 + 0.5 * x2     LB 0.900    ver5 
-        return 0.6 * x1 + 0.4 * x2     LB 0.901    ver1         
-        return 0.7 * x1 + 0.3 * x2     LB 0.902    ver6   --- Best  
-        return 0.8 * x1 + 0.2 * x2     LB          ver7
+        return 0.5 * x1 + 0.5 * x2       LB 0.900    ver5 
+        return 0.6 * x1 + 0.4 * x2       LB 0.901    ver1         
+        return 0.7 * x1 + 0.3 * x2       LB 0.902    ver6   --- Best
+        return 0.75 * x1 + 0.25 * x2     LB          ver9
+        return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7
+        return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
 -------
