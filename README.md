@@ -573,7 +573,7 @@ tta = 2:
 ## Cassava classification 6
 https://www.kaggle.com/salmaneunus/cassava-classification-6
 
-### CFG = {
+## CFG = {
 
 ### tta: default= 6    
     
@@ -586,5 +586,15 @@ https://www.kaggle.com/salmaneunus/cassava-classification-6
     'lr': 1e-2   LB 0.901    ver1 
     'lr': 1e-3   LB 0.901    ver4  
 
+## class EnsembleClassifier(nn.Module):
+
+### def forward(self, x):
+        x1 = self.model1(x)
+        x2 = self.model2(x)
+        
+        return 0.5 * x1 + 0.5 * x2     LB 0.900    ver5 
+        return 0.6 * x1 + 0.4 * x2     LB 0.901    ver1         
+        return 0.7 * x1 + 0.3 * x2     LB 0.902    ver6   --- Best  
+        return 0.8 * x1 + 0.2 * x2     LB          ver7
 
 -------
