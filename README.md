@@ -623,7 +623,12 @@ tta = 4:
     'img_size':  384    LB 0.903    ver11  
     'img_size':  400    LB error    ver13
     
-    
+### HueSaturationValue(
+
+　　　　　  hue_shift_limit=0.2   LB 0.903    ver11
+           hue_shift_limit=0.5   LB 0.903    ver18
+           hue_shift_limit=0.8   LB          ver19
+                
 -------    
     
 
