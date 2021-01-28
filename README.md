@@ -436,12 +436,21 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
             
 -------
 
+## Progress
+
+### Best LB score: 0.903
+
+
+
+
+--------
+
 ### CFG = {
 
 ### tta: default= 3    
     
     'tta': 1   LB 0.896    ver14  
-    'tta': 2   LB 0.902    ver13  --- Best
+    'tta': 2   LB 0.902    ver13
     'tta': 3   LB 0.898    ver6 
     'tta': 4   LB 0.898    ver15  
     
@@ -476,8 +485,7 @@ tta = 2:
     'img_size': 384    LB 0.896    ver36
     'img_size': 448    LB 0.898    ver38
     'img_size': 480    LB 0.898    ver39
-    'img_size': 496    LB          ver
-    'img_size': 512    LB 0.902    ver13  --- Best    
+    'img_size': 512    LB 0.902    ver13    
     'img_size': 576    LB 0.901    ver21
 
 
@@ -491,7 +499,7 @@ tta = 2:
 tta = 2:
 
     'fold_num':  2      LB 0.902    ver20
-    'fold_num': 10      LB 0.902    ver13  --- Best
+    'fold_num': 10      LB 0.902    ver13 
     'fold_num': 15      LB 0.902    ver19
  
  
@@ -501,7 +509,7 @@ tta = 2:
 
       'valid_bs':  16     LB 0.899    ver25
       'valid_bs':  28     LB 0.896    ver26
-      'valid_bs':  32     LB 0.902    ver13,22  --- Best
+      'valid_bs':  32     LB 0.902    ver13,22 
       'valid_bs':  36     LB 0.900    ver27
       'valid_bs':  64     LB 0.897    ver23
    
@@ -514,7 +522,7 @@ tta = 2:
     'seed':  500     LB 0.895    ver31
     'seed':  600     LB 0.898    ver33
     'seed':  700     LB 0.899    ver34    
-    'seed':　719     LB 0.902    ver13,22  --- Best
+    'seed':　719     LB 0.902    ver13,22 
     'seed':  800     LB 0.897    ver32 
     'seed': 1000     LB 0.897    ver30
     'seed': 1500     LB 0.897    ver29
@@ -526,7 +534,7 @@ tta = 2:,
 
     'model_arch': 'tf_efficientnet_b3_ns'
                'img_size': 480      LB 0.898    ver39
-               'img_size': 512      LB 0.902    ver13,22  --- Best
+               'img_size': 512      LB 0.902    ver13,22  
     
     'model_arch': 'tf_efficientnet_b4_ns'
                'img_size': 480      LB 0.895    ver40       
@@ -537,7 +545,7 @@ tta = 2:,
 tta = 2: 
 
        'used_epochs': [5,6,7,8]        LB 0.899    ver43
-       'used_epochs': [6,7,8,9]        LB 0.902    ver13,22,44  --- Best
+       'used_epochs': [6,7,8,9]        LB 0.902    ver13,22,44  
        'used_epochs': [7,8,9,10]       LB 0.897    ver42
        'used_epochs': [8,9,10,11]      LB 0.896    ver45
        
@@ -548,7 +556,7 @@ tta = 2:
        'weights': [1,1,1,0]       LB 0.899    ver46
        'weights': [1,1,1,0.5]     LB 0.901    ver48
        'weights': [1,1,1,0.7]     LB 0.901    ver49
-       'weights': [1,1,1,1]       LB 0.902    ver13,22,44  --- Best  
+       'weights': [1,1,1,1]       LB 0.902    ver13,22,44    
        'weights': [1,1,1,1.2]     LB 0.902    ver50
        'weights': [1,1,1,2]       LB 0.900    ver47
        'weights': [1,1,1,2,1]     LB 0.900    ver53
@@ -562,7 +570,7 @@ tta = 2:
               if fold > 0:
                   break 
               
-              if fold > 0:         LB 0.902    ver13,22,44  --- Best  
+              if fold > 0:         LB 0.902    ver13,22,44  
               if fold > 1:         LB 0.896    ver56
               if fold > 10:        LB 0.898    ver57
               
@@ -577,9 +585,16 @@ https://www.kaggle.com/salmaneunus/cassava-classification-6
 
 ### tta: default= 6    
     
+return 0.6 * x1 + 0.4 * x2:
 
     'tta': 2   LB 0.900    ver2  
     'tta': 6   LB 0.901    ver1 
+
+return 0.75 * x1 + 0.25 * x2:
+   
+    'tta': 3     LB          ver12
+    'tta': 4     LB 0.903    ver11   --- Best
+    'tta': 5     LB 0.902    ver10
 
 ### lr: default= 1e-2
 
@@ -594,9 +609,9 @@ https://www.kaggle.com/salmaneunus/cassava-classification-6
         
         return 0.5 * x1 + 0.5 * x2       LB 0.900    ver5 
         return 0.6 * x1 + 0.4 * x2       LB 0.901    ver1         
-        return 0.7 * x1 + 0.3 * x2       LB 0.902    ver6   --- Best
-        return 0.75 * x1 + 0.25 * x2     LB          ver9
-        return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7
+        return 0.7 * x1 + 0.3 * x2       LB 0.902    ver6   
+        return 0.75 * x1 + 0.25 * x2     LB 0.902    ver9   --- new default
+        return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
 -------
