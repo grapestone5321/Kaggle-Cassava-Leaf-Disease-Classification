@@ -592,7 +592,7 @@ return 0.6 * x1 + 0.4 * x2:
 
 return 0.75 * x1 + 0.25 * x2:
    
-    'tta': 3     LB          ver12
+    'tta': 3     LB 0.902    ver12
     'tta': 4     LB 0.903    ver11   --- Best
     'tta': 5     LB 0.902    ver10
 
@@ -614,4 +614,16 @@ return 0.75 * x1 + 0.25 * x2:
         return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
--------
+
+### img_size: default= 512
+
+return 0.75 * x1 + 0.25 * x2:
+tta = 4:
+
+    'img_size':  384    LB 0.903    ver11  
+    'img_size':  400    LB error    ver13
+    
+    
+-------    
+    
+
