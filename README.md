@@ -167,6 +167,12 @@ https://arxiv.org/pdf/2010.11422.pdf
 ### Greedy Policy Search: A Simple Baseline for Learnable Test-Time Augmentation
 https://arxiv.org/pdf/2002.09103.pdf
 
+
+-------
+
+### GridMask Data Augmentation
+https://arxiv.org/pdf/2001.04086.pdf
+
 --------
 
 ## Blogs
@@ -284,7 +290,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
 -------
 
 ## Progress
-### Current Best LB Score: 0.902
+### Current Best LB Score: 0.903
 
 -------
 
