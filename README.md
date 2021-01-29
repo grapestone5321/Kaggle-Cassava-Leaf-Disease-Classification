@@ -620,6 +620,7 @@ return 0.75 * x1 + 0.25 * x2:
         return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
+## def get_inference_transforms():
 
 ### img_size: default= 512
 
@@ -638,9 +639,14 @@ tta = 4:
 
       sat_shift_limit=0.2   LB 0.903    ver11   --- default
       sat_shift_limit=0.5   LB 0.903    ver20
-      sat_shift_limit=0.8   LB          ver21
+      sat_shift_limit=0.8   LB 0.903    ver21
                                
-                
+### Transpose(p=  )
+
+      Transpose(p=0.2)      LB          ver22
+      Transpose(p=0.5)      LB 0.903    ver11   --- default
+      
+ 
 -------    
     
 
