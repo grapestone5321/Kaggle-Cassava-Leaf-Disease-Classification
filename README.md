@@ -628,7 +628,7 @@ tta = 4:
 
       hue_shift_limit=0.2   LB 0.903    ver11   --- default
       hue_shift_limit=0.5   LB 0.903    ver18   
-      hue_shift_limit=0.8   LB          ver19
+      hue_shift_limit=0.8   LB 0.903    ver19
 
       sat_shift_limit=0.2   LB 0.903    ver11   --- default
       sat_shift_limit=0.5   LB 0.903    ver20
