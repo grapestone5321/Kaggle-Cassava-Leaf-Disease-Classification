@@ -170,6 +170,18 @@ https://arxiv.org/pdf/2002.09103.pdf
 
 -------
 
+# Albumentations
+https://albumentations.ai/
+
+
+## GitHub:
+### albumentations-team/albumentations
+https://github.com/albumentations-team/albumentations
+
+## Documentation
+https://albumentations.ai/docs/
+
+
 ### GridMask Data Augmentation
 https://arxiv.org/pdf/2001.04086.pdf
 
@@ -643,7 +655,7 @@ tta = 4:
                                
 ### Transpose(p=  )
 
-      Transpose(p=0.2)      LB          ver22
+      Transpose(p=0.2)      LB          ver23
       Transpose(p=0.5)      LB 0.903    ver11   --- default
       
  
