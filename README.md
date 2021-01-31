@@ -632,6 +632,8 @@ return 0.75 * x1 + 0.25 * x2:
         return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
+-------
+
 ## def get_inference_transforms():
 
 ### img_size: default= 512
@@ -641,7 +643,21 @@ tta = 4:
 
     'img_size':  384    LB 0.903    ver11  
     'img_size':  400    LB error    ver13
+
+
+## Compose([
+
+      Transpose(p=0.2)      LB 0.903    ver23
+      Transpose(p=0.5)      LB 0.903    ver11   --- default
+      Transpose(p=0.8)      LB 0.900    ver24 
  
+      HorizontalFlip(p=0.2)     LB 0.901    ver25
+      HorizontalFlip(p=0.5)     LB 0.903    ver11   --- default
+      HorizontalFlip(p=0.8)     LB 0.902    ver26
+      
+      VerticalFlip(p=0.2)       LB 0.902    ver27
+      VerticalFlip(p=0.5)       LB 0.903    ver11   --- default
+      VerticalFlip(p=0.8)       LB 0.900    ver28
  
 ### HueSaturationValue(
 
@@ -653,27 +669,19 @@ tta = 4:
       sat_shift_limit=0.5   LB 0.903    ver20
       sat_shift_limit=0.8   LB 0.903    ver21
       
-      val_shift_limit=0.2   LB    ver      --- default
-      val_shift_limit=0.5   LB    ver
-      val_shift_limit=0.8   LB    ver
+      val_shift_limit=0.2   LB 0.903    ver11      --- default
+      val_shift_limit=0.5   LB 0.903    ver30
+      val_shift_limit=0.8   LB 0.903    ver31
       
       p=0.2)       LB          ver32
       p=0.5)       LB 0.903    ver11   --- default
       p=0.8)       LB          ver33
                                
-### Transpose(p=  )
+### RandomBrightnessContrast(
 
-      Transpose(p=0.2)      LB 0.903    ver23
-      Transpose(p=0.5)      LB 0.903    ver11   --- default
-      Transpose(p=0.8)      LB 0.900    ver11 
- 
-      HorizontalFlip(p=0.2)     LB          ver
-      HorizontalFlip(p=0.5)     LB          ver
-      HorizontalFlip(p=0.8)     LB          ver
-      
-      VerticalFlip(p=0.2)       LB          ver
-      VerticalFlip(p=0.5)       LB          ver
-
+      p=0.2)       LB          ver34
+      p=0.5)       LB 0.903    ver11   --- default
+      p=0.8)       LB          ver
  
  
 -------    
