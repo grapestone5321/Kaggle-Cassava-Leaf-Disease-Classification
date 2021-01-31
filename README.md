@@ -673,7 +673,7 @@ tta = 4:
       val_shift_limit=0.5   LB 0.903    ver30
       val_shift_limit=0.8   LB 0.903    ver31
       
-      p=0.2)       LB          ver32
+      p=0.2)       LB 0.900    ver32
       p=0.5)       LB 0.903    ver11   --- default
       p=0.8)       LB          ver33
                                
@@ -681,7 +681,7 @@ tta = 4:
 
       p=0.2)       LB          ver34
       p=0.5)       LB 0.903    ver11   --- default
-      p=0.8)       LB          ver
+      p=0.8)       LB          ver35
  
  
 -------    
