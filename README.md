@@ -677,7 +677,7 @@ tta = 4:
       
       p=0.2)       LB 0.900    ver32
       p=0.5)       LB 0.903    ver11   --- default
-      p=0.8)       LB          ver33
+      p=0.8)       LB 0.901    ver33
                                
 ### RandomBrightnessContrast(
 
