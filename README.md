@@ -651,6 +651,7 @@ tta = 4:
       Transpose(p=0.3)      LB          ver37
       Transpose(p=0.4)      LB 0.903    ver36
       Transpose(p=0.5)      LB 0.903    ver11   --- default
+      Transpose(p=0.6)      LB          ver38
       Transpose(p=0.8)      LB 0.900    ver24 
  
       HorizontalFlip(p=0.2)     LB 0.901    ver25
