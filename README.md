@@ -693,7 +693,7 @@ tta = 4:
 Transpose(p=0.1):  
 
       p=0.4)       LB          ver
-      p=0.6)       LB          ver43
+      p=0.6)       LB 0.901    ver43
  
  
  
