@@ -302,7 +302,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
 -------
 
 ## Progress
-### Current Best LB Score: 0.903
+### Current Best LB Score: 0.904 (public)
 
 -------
 
