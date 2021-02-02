@@ -647,7 +647,7 @@ tta = 4:
 
 ## Compose([
 
-      Transpose(p=0.1)      LB          ver39
+      Transpose(p=0.1)      LB 0.904    ver39   --- best
       Transpose(p=0.2)      LB 0.903    ver23
       Transpose(p=0.3)      LB 0.903    ver37
       Transpose(p=0.4)      LB 0.903    ver36
@@ -678,16 +678,22 @@ tta = 4:
       val_shift_limit=0.8   LB 0.903    ver31
       
       p=0.2)       LB 0.900    ver32
+      p=0.4)       LB 0.900    ver41
       p=0.5)       LB 0.903    ver11   --- default
+      p=0.6)       LB 0.900    ver40
       p=0.8)       LB 0.901    ver33
                                
 ### RandomBrightnessContrast(
 
       p=0.2)       LB 0.899    ver34
-      p=0.4)       LB          ver
       p=0.5)       LB 0.903    ver11   --- default
-      p=0.6)       LB          ver40
       p=0.8)       LB 0.900    ver35
+      
+Transpose(p=0.1):  
+
+      p=0.4)       LB          ver
+      p=0.6)       LB          ver43
+ 
  
  
 -------    
