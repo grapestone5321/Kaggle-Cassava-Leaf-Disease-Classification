@@ -647,6 +647,7 @@ tta = 4:
 
 ## Compose([
 
+      Transpose(p=0.01)     LB          ver44
       Transpose(p=0.1)      LB 0.904    ver39   --- best
       Transpose(p=0.2)      LB 0.903    ver23
       Transpose(p=0.3)      LB 0.903    ver37
