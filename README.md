@@ -456,7 +456,7 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 ## Progress
 
-### Best LB score: 0.903
+### Best LB score: 0.904
 
 
 
