@@ -706,7 +706,7 @@ Transpose(p=0.01):
 ## Compose([
 
       Transpose(p=0.01)     LB 0.904    ver46 
-      Transpose(p=0.8)      LB          ver47
+      Transpose(p=0.8)      LB 0.904    ver47
 
 ------- 
 
