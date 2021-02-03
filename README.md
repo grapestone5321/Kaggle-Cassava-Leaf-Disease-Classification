@@ -647,7 +647,7 @@ tta = 4:
 
 ## Compose([
 
-      Transpose(p=0.01)     LB          ver44
+      Transpose(p=0.01)     LB 0.904    ver44   --- best
       Transpose(p=0.1)      LB 0.904    ver39   --- best
       Transpose(p=0.2)      LB 0.903    ver23
       Transpose(p=0.3)      LB 0.903    ver37
@@ -692,11 +692,21 @@ tta = 4:
       
 Transpose(p=0.1):  
 
-      p=0.4)       LB          ver
+
       p=0.6)       LB 0.901    ver43
  
- 
+Transpose(p=0.01): 
+
+      p=0.4)       LB 0.902    ver45
  
 -------    
-    
+ 
+## def get_train_transforms():
+
+## Compose([
+
+      Transpose(p=0.01)     LB 0.904    ver46 
+      Transpose(p=0.8)      LB          ver47
+
+------- 
 
