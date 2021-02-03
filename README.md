@@ -700,6 +700,15 @@ Transpose(p=0.01):
 
       p=0.4)       LB 0.902    ver45
  
+### Normalize(
+
+Transpose(p=0.0):
+
+      ToTensorV2(p=0.2)      LB 0.904    ver51
+      ToTensorV2(p=0.5)      LB 0.904    ver49      
+      ToTensorV2(p=1.0)      LB 0.904    ver48
+
+
 -------    
  
 ## def get_train_transforms():
