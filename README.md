@@ -708,7 +708,13 @@ Transpose(p=0.0):
       ToTensorV2(p=0.5)      LB 0.904    ver49      
       ToTensorV2(p=1.0)      LB 0.904    ver48
 
+### 'num_workers': default= 5,
 
+     'num_workers': 5      LB 0.904    ver49 
+     'num_workers': 3      LB 0.903    ver52
+    
+    
+    
 -------    
  
 ## def get_train_transforms():
