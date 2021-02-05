@@ -725,7 +725,9 @@ Transpose(p=0.0):
      'num_workers': 6      LB 0.900    ver53
      'num_workers': 7      LB 0.901    ver55
     
+## Blur(p=0.0): default = non
 
+      Blur(p=0.0)   LB        ver
 
 ------- 
 
