@@ -727,8 +727,8 @@ Transpose(p=0.0):
     
 ## Blur(p=0.0): default = non
 
-      Blur(p=0.0)   LB 0.902　 ver58
-      Blur(p=0.2)   LB    　 ver59
+      Blur(p=0.0)   LB 0.902　   ver58
+      Blur(p=0.2)   LB error  　 ver59
 
 ------- 
 
