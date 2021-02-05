@@ -710,10 +710,11 @@ Transpose(p=0.0):
 
 ### 'num_workers': default= 5,
 
-     'num_workers': 5      LB 0.904    ver49 
      'num_workers': 3      LB 0.903    ver52
-    
-    
+     'num_workers': 4      LB 0.902    ver54      
+     'num_workers': 5      LB 0.904    ver49   --- best
+     'num_workers': 6      LB 0.900    ver53
+     'num_workers': 7      LB          ver55
     
 -------    
  
