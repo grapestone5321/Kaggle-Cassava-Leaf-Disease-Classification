@@ -632,6 +632,15 @@ return 0.75 * x1 + 0.25 * x2:
         return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
+-------    
+ 
+## def get_train_transforms():
+
+## Compose([
+
+      Transpose(p=0.01)     LB 0.904    ver46 
+      Transpose(p=0.8)      LB 0.904    ver47
+      
 -------
 
 ## def get_inference_transforms():
@@ -716,14 +725,7 @@ Transpose(p=0.0):
      'num_workers': 6      LB 0.900    ver53
      'num_workers': 7      LB 0.901    ver55
     
--------    
- 
-## def get_train_transforms():
 
-## Compose([
-
-      Transpose(p=0.01)     LB 0.904    ver46 
-      Transpose(p=0.8)      LB 0.904    ver47
 
 ------- 
 
