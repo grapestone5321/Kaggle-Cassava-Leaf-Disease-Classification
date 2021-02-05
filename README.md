@@ -714,7 +714,7 @@ Transpose(p=0.0):
      'num_workers': 4      LB 0.902    ver54      
      'num_workers': 5      LB 0.904    ver49   --- best
      'num_workers': 6      LB 0.900    ver53
-     'num_workers': 7      LB          ver55
+     'num_workers': 7      LB 0.901    ver55
     
 -------    
  
