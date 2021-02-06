@@ -632,6 +632,13 @@ return 0.75 * x1 + 0.25 * x2:
         return 0.8 * x1 + 0.2 * x2       LB 0.902    ver7   
         return 0.9 * x1 + 0.1 * x2       LB 0.901    ver8
 
+
+### 'epochs': default= 60,
+
+      'epochs': 60     LB 0.904    ver62    --- new default
+      'epochs': 30     LB 0.904    ver63 
+
+
 -------    
  
 ## def get_train_transforms():
