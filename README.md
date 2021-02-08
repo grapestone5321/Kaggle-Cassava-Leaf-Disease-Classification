@@ -664,9 +664,9 @@ tta = 4:
 
 ## Compose([
 
-      Transpose(p=0.0)      LB 0.904    ver48   --- best
-      Transpose(p=0.01)     LB 0.904    ver44   --- best
-      Transpose(p=0.1)      LB 0.904    ver39   --- best
+      Transpose(p=0.0)      LB 0.904    ver48   --- new default
+      Transpose(p=0.01)     LB 0.904    ver44   
+      Transpose(p=0.1)      LB 0.904    ver39   
       Transpose(p=0.2)      LB 0.903    ver23
       Transpose(p=0.3)      LB 0.903    ver37
       Transpose(p=0.4)      LB 0.903    ver36
@@ -720,7 +720,7 @@ Transpose(p=0.01):
 ### RandomBrightnessContrast(
 
       brightness_limit=(-0.1,0.1)        LB 0.904    ver62
-      brightness_limit=(-0.2,0.2)        LB 0.905    ver64
+      brightness_limit=(-0.2,0.2)        LB 0.905    ver64   --- Best
       brightness_limit=(-0.25,0.25)      LB          ver65
  
 ### Normalize(
