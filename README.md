@@ -456,7 +456,7 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 
 ## Progress
 
-### Best LB score: 0.904
+### Best LB score: 0.905
 
 
 
@@ -599,6 +599,7 @@ tta = 2:
 ## Cassava classification 6
 https://www.kaggle.com/salmaneunus/cassava-classification-6
 
+
 ## CFG = {
 
 ### tta: default= 6    
@@ -639,7 +640,7 @@ return 0.75 * x1 + 0.25 * x2:
       'epochs': 30     LB 0.904    ver63 
 
 
--------    
+   
  
 ## def get_train_transforms():
 
@@ -648,7 +649,7 @@ return 0.75 * x1 + 0.25 * x2:
       Transpose(p=0.01)     LB 0.904    ver46 
       Transpose(p=0.8)      LB 0.904    ver47
       
--------
+
 
 ## def get_inference_transforms():
 
@@ -715,6 +716,12 @@ Transpose(p=0.1):
 Transpose(p=0.01): 
 
       p=0.4)       LB 0.902    ver45
+
+### RandomBrightnessContrast(
+
+      brightness_limit=(-0.1,0.1)        LB 0.904    ver62
+      brightness_limit=(-0.2,0.2)        LB 0.905    ver64
+      brightness_limit=(-0.25,0.25)      LB          ver65
  
 ### Normalize(
 
