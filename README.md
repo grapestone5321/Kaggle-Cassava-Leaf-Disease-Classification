@@ -301,10 +301,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/206724
 
 -------
 
-## Progress
-### Current Best LB Score: 0.904 (public)
 
--------
 
 
 ### Pytorch Efficientnet Baseline [Inference] TTA
@@ -455,13 +452,10 @@ https://www.kaggle.com/mekhdigakhramanian/pytorch-efficientnet-baseline-inferenc
 -------
 
 ## Progress
+### Current Best LB Score: 0.905 (public)
 
-### Best LB score: 0.905
+-------
 
-
-
-
---------
 
 ### CFG = {
 
