@@ -752,9 +752,9 @@ Transpose(p=0.01):
 
 brightness_limit=(-0.25,0.25):
 
-      contrast_limit=(-0.05, 0.05)       LB          ver
+      contrast_limit=(-0.05, 0.05)       LB 0.904    ver71
       contrast_limit=(-0.1, 0.1)         LB 0.905    ver65
-      contrast_limit=(-0.15, 0.15)       LB          ver
+      contrast_limit=(-0.15, 0.15)       LB          ver74
       contrast_limit=(-0.2, 0.2)         LB 0.904    ver69
       
  
