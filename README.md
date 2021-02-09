@@ -701,7 +701,31 @@ tta = 4:
       p=0.5)       LB 0.903    ver11   --- default
       p=0.6)       LB 0.900    ver40
       p=0.8)       LB 0.901    ver33
-                               
+
+
+### Normalize(
+
+Transpose(p=0.0):
+
+      ToTensorV2(p=0.2)      LB 0.904    ver51
+      ToTensorV2(p=0.5)      LB 0.904    ver49      
+      ToTensorV2(p=1.0)      LB 0.904    ver48
+
+### 'num_workers': default= 5,
+
+     'num_workers': 3      LB 0.903    ver52
+     'num_workers': 4      LB 0.902    ver54      
+     'num_workers': 5      LB 0.904    ver49   --- default
+     'num_workers': 6      LB 0.900    ver53
+     'num_workers': 7      LB 0.901    ver55
+    
+## Blur(p=0.0): default = non
+
+      Blur(p=0.0)   LB 0.902　   ver58
+      Blur(p=0.2)   LB error  　 ver59
+
+
+
 ### RandomBrightnessContrast(
 
       p=0.2)       LB 0.899    ver34
@@ -719,32 +743,20 @@ Transpose(p=0.01):
 
 ### RandomBrightnessContrast(
 
-      brightness_limit=(-0.1,0.1)        LB 0.904    ver62
+      brightness_limit=(-0.05,0.05)      LB 0.904    ver68
+      brightness_limit=(-0.1,0.1)        LB 0.904    ver62            --- default
       brightness_limit=(-0.2,0.2)        LB 0.905    ver64   --- Best
-      brightness_limit=(-0.25,0.25)      LB          ver65
- 
-### Normalize(
+      brightness_limit=(-0.25,0.25)      LB 0.905    ver65   --- Best --- new default
+      brightness_limit=(-0.3,0.3)        LB 0.905    ver66   --- Best
+      brightness_limit=(-0.35,0.35)      LB 0.904    ver67
 
-Transpose(p=0.0):
+brightness_limit=(-0.25,0.25):
 
-      ToTensorV2(p=0.2)      LB 0.904    ver51
-      ToTensorV2(p=0.5)      LB 0.904    ver49      
-      ToTensorV2(p=1.0)      LB 0.904    ver48
-
-### 'num_workers': default= 5,
-
-     'num_workers': 3      LB 0.903    ver52
-     'num_workers': 4      LB 0.902    ver54      
-     'num_workers': 5      LB 0.904    ver49   --- best
-     'num_workers': 6      LB 0.900    ver53
-     'num_workers': 7      LB 0.901    ver55
-    
-## Blur(p=0.0): default = non
-
-      Blur(p=0.0)   LB 0.902　   ver58
-      Blur(p=0.2)   LB error  　 ver59
-
-
+      contrast_limit=(-0.05, 0.05)       LB          ver
+      contrast_limit=(-0.1, 0.1)         LB 0.905    ver65
+      contrast_limit=(-0.2, 0.2)         LB          ver69
+      contrast_limit=(-0.25, 0.25)       LB          ver
+      contrast_limit=(-0.3, 0.3)         LB          ver
 
 ------- 
 
