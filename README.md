@@ -104,6 +104,38 @@ https://github.com/icassava/fgvcx-icassava
 
 -------
 
+## Leaf Disease Classification Using PyTorch: Abhishek Thakur
+https://www.youtube.com/watch?v=hBvUrj0FUiw
+
+In this video, we will build a deep learning model using #PyTorch​ to classify the different types of diseases in Cassava leaf images. 
+
+This is a multi-class #ImageClassification​ problem and a #Kaggle​ competition too. 
+
+### Competition link: 
+https://www.kaggle.com/c/cassava-leaf-disease-classification
+
+### We will be using Tez, a small trainer library we developed in one of the previous videos: 
+https://github.com/abhishekkrthakur/tez
+
+### Tutorial Kernel: Using Tez in Leaf Disease Classification
+https://www.kaggle.com/abhishek/using-tez-in-leaf-disease-classification
+
+
+### Training Kernel: Tez: Faster and easier training for leaf detection
+https://www.kaggle.com/abhishek/tez-faster-and-easier-training-for-leaf-detection
+
+
+### Inference kernel: Leaf disease inference using Tez
+https://www.kaggle.com/abhishek/leaf-disease-inference-using-tez
+
+
+
+
+
+
+
+
+-------
 
 ## Pytorch
 https://pytorch.org/
